@@ -14,4 +14,10 @@ public class EdificioDeOficinas implements Edificio{
 	
 	public void setOficinas(int oficinas) {this.oficinas = oficinas;}
 	public void setSuperficieEdificio(double superficie) {this.superficie = superficie;}
+	
+	
+	@Override
+	public String toString() {
+	    return "Edificio de Oficinas [Superficie: " + superficie + " m², Oficinas: " + oficinas + "]";
+	}
 }

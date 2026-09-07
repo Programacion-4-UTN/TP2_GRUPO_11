@@ -43,4 +43,9 @@ private double superficie;
 		this.superficie = superficie;
 	}
 	
+	@Override
+	public String toString() {
+	    return "Polideportivo [Nombre: " + nombre + ", Superficie: " + superficie + " m², Tipo de Instalación: " + getTipoDeInstalacion() + "]";
+	}
+	
 }
